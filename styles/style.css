@@ -1,10 +1,14 @@
+:root {
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
 h1 {
-  color: black;
-  font-family: "Playfair Display", serif;
+  font-family: var(--primary-font);
+  font-size: 96px;
   font-weight: bold;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
+.hero {
+  text-align: center;
 }

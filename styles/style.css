@@ -1,6 +1,10 @@
 :root {
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
+  --primary-color: #f9f7fe;
+  --secondary-color: #272142;
+  --tertiary-color: #6c63ff;
+  --quaternary-color: #212529;
 }
 
 h1 {
@@ -11,4 +15,36 @@ h1 {
 
 .hero {
   text-align: center;
+  background-color: var(--primary-color);
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 0;
+}
+
+.hero h2 {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--secondary-color);
+  line-height: 2;
+}
+.contact-button {
+  background: var(--tertiary-color);
+  color: #ffffff;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400px;
+  border-radius: 4px;
+  padding: 15px 30px;
+}
+.contact-button:hover {
+  background: var(--tertiary-color);
+  color: var(--quaternary-color);
 }

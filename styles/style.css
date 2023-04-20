@@ -92,3 +92,11 @@ h1 {
 .description-image {
   padding-right: 10px;
 }
+@media (max-width: 900px) {
+  .hero {
+    padding: 120px 0;
+  }
+  .hero p {
+    font-size: 30px;
+  }
+}

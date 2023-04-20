@@ -34,6 +34,7 @@ h1 {
   font-weight: normal;
   color: var(--secondary-color);
   line-height: 2;
+  padding-bottom: 48px;
 }
 .contact-button {
   background: var(--tertiary-color);
@@ -92,11 +93,64 @@ h1 {
 .description-image {
   padding-right: 10px;
 }
+.hidden {
+  display: none;
+}
+.project-2-padding {
+  padding-bottom: 36px;
+}
 @media (max-width: 900px) {
   .hero {
-    padding: 120px 0;
+    padding: 60px 0;
   }
   .hero p {
     font-size: 30px;
+    padding-bottom: 5px;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  .hero h2 {
+    font-size: 16px;
+    line-height: 1;
+    padding-top: 5px;
+    padding-bottom: 24px;
+  }
+  .featured p {
+    margin: 24px;
+  }
+  .project-description h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .description-button {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .project-description h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .active {
+    display: none;
+  }
+  .hidden {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .description-image {
+    padding-top: 100px;
+  }
+  .project-description h2 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .project-description p {
+    font-size: 14px;
   }
 }

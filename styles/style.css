@@ -175,6 +175,10 @@ h1 {
   border-radius: 6px;
 }
 
+.work-content {
+  padding-bottom: 24px;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 60px 0;
@@ -187,8 +191,18 @@ h1 {
     padding: 60px 0;
     text-align: center;
   }
+
+  .work-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+
   h1 {
     font-size: 46px;
+  }
+  .work-section h1 {
+    font-size: 46px;
+    line-height: 1.5;
   }
   .hero h2 {
     font-size: 16px;

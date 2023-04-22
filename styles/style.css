@@ -46,6 +46,7 @@ h1 {
   font-weight: 400px;
   border-radius: 4px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
 }
 .contact-button:hover {
   background: var(--tertiary-color);
@@ -86,6 +87,7 @@ h1 {
   padding: 15px 30px;
   font-weight: 400;
   font-family: var(--secondary-font);
+  transition: all 100ms ease-in-out;
 }
 .description-button:hover {
   color: var(--quaternary-color);
@@ -182,6 +184,10 @@ h1 {
   padding: 160px 150px;
 }
 
+.contact-section-main {
+  padding-bottom: 60px;
+}
+
 .contact-section h1 {
   font-size: 64px;
   line-height: 80px;
@@ -210,8 +216,84 @@ h1 {
   color: var(--tertiary-color);
 }
 
+.nav-link {
+  transition: all 100ms ease-in-out;
+}
+
 .nav-link:hover {
   color: var(--senary-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin-bottom: 48px;
+}
+
+footer h4 {
+  font-size: 48px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+footer p {
+  font-weight: normal;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--quinary-color);
+}
+footer .footer-button {
+  padding-top: 26px;
+}
+
+footer li {
+  display: inline;
+  list-style: none;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer .social-links,
+footer .footer-email {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+footer .footer-email a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-family: var(--secondary-font);
+  transition: all 100ms ease-in-out;
+}
+
+footer .footer-email a:hover {
+  color: var(--tertiary-color);
+}
+
+footer .social-links a {
+  color: var(--tertiary-color);
+  background-color: var(--primary-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
 }
 
 @media (max-width: 900px) {

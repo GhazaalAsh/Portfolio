@@ -225,6 +225,11 @@ h1 {
     text-align: center;
   }
 
+  .contact-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+
   h1 {
     font-size: 46px;
   }

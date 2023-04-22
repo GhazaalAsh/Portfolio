@@ -6,6 +6,7 @@
   --tertiary-color: #6c63ff;
   --quaternary-color: #212529;
   --quinary-color: rgba(39, 33, 66, 0.7);
+  --senary-color: #ec17be;
 }
 
 h1 {
@@ -203,6 +204,14 @@ h1 {
   font-weight: normal;
   line-height: 30px;
   margin-bottom: 16px;
+}
+
+.active-navbar-link {
+  color: var(--tertiary-color);
+}
+
+.nav-link:hover {
+  color: var(--senary-color);
 }
 
 @media (max-width: 900px) {

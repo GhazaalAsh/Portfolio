@@ -196,7 +196,15 @@ h1 {
   font-family: var(--secondary-font);
   font-weight: bold;
   line-height: 1.5;
-  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.contact-section p {
+  font-size: 14px;
+  font-family: var(--secondary-font);
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 16px;
 }
 
 @media (max-width: 900px) {

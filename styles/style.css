@@ -297,6 +297,29 @@ footer .social-links a:hover {
   background-color: var(--tertiary-color);
 }
 
+Footer .name {
+  color: var(--senary-color);
+}
+
+footer .open-source-term {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  color: var(--quinary-color);
+  text-align: center;
+}
+
+footer .open-source-term a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .open-source-term a:hover {
+  color: var(--senary-color);
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 60px 0;
